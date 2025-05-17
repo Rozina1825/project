@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color :white;
+    color:rgb(93, 129, 93);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 5rem 1rem 5rem;
+}
+#logo
+{
+    font-size: large;
+    height: 250px;
+    margin-top: -3rem;
+}
+nav
+{
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: 600;   
+}
+nav a
+{
+    margin-right: 2rem;
+    border-bottom: 2px solid transparent;
+}
+nav a:hover
+{
+    border-bottom: 2px solid brown;
+    transition: 0.5s ease;
+}
+.main-contet
+{
+    margin-left: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-contet h1
+{
+    font-size: 35px;
+}
+.main-contet h3
+{
+    font-size: 23px;
+}
+.description
+{
+    margin-left: 5rem;
+    margin-top: 0.8rem;
+    width: 470px;
+    margin-bottom: 3rem;
+}
+.description p
+{
+    font-family: "Dancing Script", cursive;
+}
+
+.btn
+{
+    margin-left: 4.3rem;
+    margin-bottom: 3rem;
+}
+.btn a
+{
+    font-size: 30px;
+    font-weight: 700;
+    border: 3px solid brown;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin-top: 1 rem;
+}nav a:hover
+{
+    border-bottom: 2px solid brown;
+    transition: 0.5s ease;
+}
+.main-contet
+{
+    margin-left: 5rem;
+}
+.main-contet h1
+{
+    font-size: 35px;
+}
+.main-contet h4
+{
+    font-size: 23px;
+}
+.description
+{
+    margin-left: 5rem;
+    margin-top: 0.8rem;
+    width: 470px;
+}
+.btn
+{
+    margin-left: 4.3rem;
+    margin-top: 2rem;
+}
+.btn a
+{
+    font-size: 30px;
+    font-weight: 700;
+    border: 3px solid brown;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+}
+.social-icons
+{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.social-icons a
+{
+    font-size: 30px;
+    margin-right: 3rem;
+
+}
+.main-image
+{
+    position: absolute;
+    top: 5rem;
+    left:700px;
+
+}
+.main-image img
+{
+    background: none;
+    filter: drop-shadow(0px 0px 10px brown);
+    height:600px;
+    width: 400px;
+}
+.main-image img:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 5px  rgb(93, 192, 111));
+    transition: 0.5s ease;
+}
+#active
+{
+    border-bottom: 2px solid brown;
+}
+.btn a
+{
+    box-shadow: 0px 0px 15px brown;
+}
+.btn a:hover
+{
+    box-shadow: 0px 0px 15px rgb(3, 241, 241);
+    transition: 0.5s ease;
+    border: 2px solid rgb(3, 241, 241);
+}
+.social-icons a i:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+.product-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 0rem 5rem 3rem 7.5rem;
+}
+.product-container div img
+{
+    height: 200px;
+}
+.product-container div
+{
+    border: 2px solid rgb(116, 174, 116);
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px brown;
+}
+.product-container div h3
+{
+    margin-top: 1rem;
+}
+.product-container div p
+{
+    color: rgb(44, 93, 44);
+    font-weight: 700;
+    background: none;
+    padding-bottom: 3rem;
+}
+.product-container div a
+{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    border: 2px solid rgb(16, 56, 16);
+    padding: 10px 15px;
+    box-shadow: 3px 3px 1px rgb(116, 158, 116);
+}
+.product-container div:hover
+{
+    box-shadow: 0px 0px 15px pink;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}.about-title
+{
+    font-size: 30px;
+    border-bottom: 2px solid brown;
+    margin-top: -3rem;
+}
+
+.about-content p
+{
+    font-size: 20px;
+    margin: 2rem 5rem;
+    font-family: "Dancing Script", cursive; 
+} 
+
+.about-social-icons a i
+{
+    font-size: 35px;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+}
+.about-social-icons a i:hover
+{
+    transform: scale(1.2);
+    transition: 0.5 ease;
+}
+.contact-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 5rem;
+}
+.contact-form
+{
+    margin-top: -1firem;
+}
+.contact-form table tr td
+{
+    padding: 1rem;
+}
+.contact-form table tr td input
+{
+    background-color: rgb(240, 248, 255);
+    border: 2px solid brown;
+    border-radius: 20px;
+    padding: 0.6rem 2rem;
+}
+.contact-form table
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-form table tr td button
+{
+    font-size: 20px;
+    font-weight: 800;
+    /* background-color: aliceblue; */
+    padding: 0.5rem 1rem;
+    border: 2px solid brown;
+    border-radius: 30px;
+}
+@media (max-width : 430px)
+{
+*
+{
+    background-color: white;
+    color: rgb(81, 146, 81);
+}
+header
+{
+    display: block;
+    margin: 0rem 0rem 0rem 0rem;
+}
+#logo
+{
+    display: none;
+}
+nav
+{
+    margin-left: 0.5rem;
+    margin-top: 3.5rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;  
+}
+nav a
+{
+    margin-right: 1rem;
+}
+.main-contet
+{
+    margin-top: 25rem;
+    margin-left: 0rem;
+}
+.main-contet h1
+{
+    text-align: center;
+    font-size: 30px;
+}
+.main-contet h3
+{
+    text-align: center;
+    font-size: 23px;
+}
+.description
+{
+    margin-left: 0.3rem;
+    text-align: center;
+    width: 380px;
+}
+.btn
+{
+    margin-left: 6.5rem;
+    margin-top: 2rem;
+}
+.social-icons
+{
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.social-icons a
+{
+    font-size: 30px;
+    margin-right: 3rem;
+
+}
+
+.main-image
+{
+    position: absolute;
+    top: 5rem;
+    left: 1.2rem;
+}
+.main-image img
+{
+    background: none;
+    filter: drop-shadow(0px 0px 10px brown);
+    height: 350px;
+}
+.product-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem 0rem 3rem 3rem;
+}
+.about-title
+{
+    margin-top: 2rem;
+}
+.about-content
+{
+    font-size: 20px;
+    margin: 2rem 0.5rem;
+}
+.contact-container
+{
+    display: block;
+    margin: 0rem 0rem;
+}
+.contact-form table tr td
+{
+    padding: 0.6rem;
+}
+.contact-form table tr td input
+{
+    padding: 0.2rem 1rem;
+}
+.contact-form table
+{
+    font-size: 11px;
+}
+.contact-form table tr td button
+{
+    font-size: 15px;
+    font-weight: 800;
+    /* background-color: aliceblue; */
+    padding: 0.2rem 0.8rem;
+}
+.map
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+iframe
+{
+    width: 300px;
+    height: 300px;
+}
+}
